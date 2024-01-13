@@ -4,6 +4,7 @@
 terraform {
 
   cloud {
+    organization = "goorm_semi"
     workspaces {
       name = "learn-terraform-eks"
     }
@@ -33,4 +34,3 @@ terraform {
 
   required_version = "~> 1.3"
 }
-
